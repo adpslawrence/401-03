@@ -65,7 +65,7 @@
             border: 4px solid #6b0f1a; /* 血色邊框 */
             border-radius: 10px;
             z-index: 20;
-            min-width: 300px;
+            min-width: 350px; /* 調整：增加最小寬度 */
         }
 
         .game-message h1 {
@@ -96,6 +96,9 @@
             border: 3px solid #c32f27;
             border-radius: 6px;
             transition: transform 0.1s;
+            /* 修正：增加按鈕上下的間距 */
+            margin: 1.5rem 0; 
+            display: inline-block;
         }
 
         .start-button:hover, .retry-button:hover {
